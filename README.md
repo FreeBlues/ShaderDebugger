@@ -7,6 +7,11 @@
 
 ##  Other Info
 
+Articles record the whole development: from an idea to a available propotype
+
+[How to watch a var in shader? -A new solution: change the question from 'What is' to 'Is it'](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-1.md)        
+[]()
+
 ---
 
 # ShaderDebugger 着色器调试工具
@@ -59,5 +64,5 @@ shoufloat(-1234.345);
 
 记录完成这个原型工具的整个开发调试过程的思路
 
-[]()
-[]()
+[](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-1.md) 
+[OpenGL ES 2.0 Shader 调试新思路(二): 做一个可用的原型]()
