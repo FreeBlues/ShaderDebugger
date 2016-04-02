@@ -1,4 +1,4 @@
-# ShaderDebugger A tool for shader debugging
+# ShaderDebugger: A tool function for shader debugging
 
 ##  Intro
 
@@ -55,7 +55,7 @@ Articles record the whole development: from an idea to a available propotype
 
 ---
 
-# ShaderDebugger 着色器调试工具
+# ShaderDebugger: 着色器调试工具函数
 
 ##  介绍
 
