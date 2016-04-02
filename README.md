@@ -53,6 +53,20 @@ shoufloat(-1234.345);
 shoufloat(.0);
 ```
 
+## Screeshot
+
+* showFloat(float(-1234));
+
+![-1234](https://static.oschina.net/uploads/img/201604/02012716_WSKI.png "在这里输入图片标题")
+
+*    showFloat(2097152.411);
+
+![without fract](https://static.oschina.net/uploads/img/201604/02012812_2yQ2.png "在这里输入图片标题")
+
+*    showFloat(2097152.11);
+
+![with fract](https://static.oschina.net/uploads/img/201604/02012855_bQRE.png "在这里输入图片标题")
+
 ##  Other Info
 
 Articles record the whole development: from an idea to a available propotype
