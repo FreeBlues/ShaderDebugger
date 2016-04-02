@@ -15,7 +15,7 @@ In fact, they are a few global vars and functions:
 
 ##  Usage:
 
-Copy the global vars and the functions into the code of `fragment shader`, then run the `showFloat()`, like below:
+Copy the global vars and the functions into the code of `fragment shader`, then run the `showFloat()` in `main()`, like below:
 
 ### Show the int
 
