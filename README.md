@@ -50,8 +50,8 @@ shoufloat(-1234.345);
 
 Articles record the whole development: from an idea to a available propotype
 
-[How to watch a var in shader? -A new solution: change the question from 'What is' to 'Is it'](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-1.md)        
-[]()
+[How to watch a var in shader? -A new solution: change the question from 'What is' to 'Is it'](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-1-en.md)        
+[How to watch a var in shader? -A new solution: change the question from 'What is' to 'Is it'](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-2-en.md)
 
 ---
 
@@ -105,5 +105,5 @@ shoufloat(-1234.345);
 
 记录完成这个原型工具的整个开发调试过程的思路
 
-[OpenGL ES 2.0 Shader 调试新思路(一): 改变提问方式-是什么(答案是具体值)与是不是(答案是布尔值)](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-1.md) 
-[OpenGL ES 2.0 Shader 调试新思路(二): 做一个可用的原型]()
+[OpenGL ES 2.0 Shader 调试新思路(一): 改变提问方式-是什么(答案是具体值)与是不是(答案是布尔值)](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-1-cn.md)      
+[OpenGL ES 2.0 Shader 调试新思路(二): 做一个可用的原型](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-2-cn.md)
