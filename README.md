@@ -2,8 +2,49 @@
 
 ##  Intro
 
+[`Codea`](codea.io) supports the coder to write and run the `OpenGL ES shader` code on `iPad` directlly, it is very useful for design `3D` program, but the vars in `shader` can not be wathched directlly, it makes the debug hard. Because of this I try to make a tool function to show the value of var in `shader` outpu th screen, a proptype, it is simple, bad performance, but can work.  With it we can watch the var in `shader` easily.
+
+##  About the functions
+
+In fact, they are a few global vars and functions:
+
+* Use for the coordinate `float x` 和 `float y`
+* Use for display the value of var `showFloat()`
+* Use for generate the font `ledRectChar()`
+* Use for judge the rect area `inRect()`
 
 ##  Usage:
+
+Copy the global vars and the functions into the code of `fragment shader`, then run the `showFloat()`, like below:
+
+### Show the int
+
+Positive int
+
+```
+shoufloat(float(2345));
+```
+
+Negative int
+
+```
+shoufloat(float(2345));
+```
+
+Float
+
+```
+shoufloat(.2345));
+```
+
+```
+shoufloat(1234.345);
+```
+
+```
+shoufloat(-1234.345);
+```
+
 
 ##  Other Info
 
@@ -64,5 +105,5 @@ shoufloat(-1234.345);
 
 记录完成这个原型工具的整个开发调试过程的思路
 
-[](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-1.md) 
+[OpenGL ES 2.0 Shader 调试新思路(一): 改变提问方式-是什么(答案是具体值)与是不是(答案是布尔值)](https://github.com/FreeBlues/ShaderDebugger/blob/master/Record-Article-1.md) 
 [OpenGL ES 2.0 Shader 调试新思路(二): 做一个可用的原型]()
