@@ -31,6 +31,8 @@ Negative int
 shoufloat(float(2345));
 ```
 
+### Show the float
+
 Float
 
 ```
@@ -45,6 +47,11 @@ shoufloat(1234.345);
 shoufloat(-1234.345);
 ```
 
+### Show the zero
+
+```
+shoufloat(.0);
+```
 
 ##  Other Info
 
@@ -87,6 +94,8 @@ shoufloat(float(2345));
 shoufloat(float(2345));
 ```
 
+### 显示浮点数
+
 浮点数
 
 ```
@@ -99,6 +108,12 @@ shoufloat(1234.345);
 
 ```
 shoufloat(-1234.345);
+```
+
+### 显示0
+
+```
+shoufloat(.0);
 ```
 
 ##  其他
