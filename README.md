@@ -2,7 +2,7 @@
 
 ##  Intro
 
-[`Codea`](codea.io) supports the coder to write and run the `OpenGL ES shader` code on `iPad` directlly, it is very useful for design `3D` program, but the vars in `shader` can not be wathched directlly, it makes the debug hard. Because of this I try to make a tool function to show the value of var in `shader` outpu th screen, a proptype, it is simple, bad performance, but can work.  With it we can watch the var in `shader` easily.
+[`Codea`](codea.io) supports the coder to write and run the `OpenGL ES shader` code on `iPad` directlly, it is very useful for designing `3D` program, but the vars in `shader` can not be wathched directly, it makes the debug hardly. Because of this I try to make a tool function to show the value of var in `shader` outpu th screen, a proptype, it is simple, bad performance, but can work.  With it we can watch the var in `shader` easily.
 
 ##  About the functions
 
