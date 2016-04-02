@@ -1,5 +1,5 @@
 #	OpenGL ES 2.0 Shader 调试新思路(二): 做一个可用的原型
-#	
+	
 
 #	目录
 
@@ -58,7 +58,9 @@ void ledChar(int n, float xa,float xb, float ya, float yb){
 
 截图:
 
-为了方便起见, 写了一个计算矩形区域的辅助函数, 我们把新写的函数命名为 `ledRectChar`,  代码如下:
+![示意图](https://static.oschina.net/uploads/img/201604/02012546_25t4.png "在这里输入图片标题")
+
+为了方便起见, 写了一个计算矩形区域的辅助函数 `inRect`, 我们把新写的函数命名为 `ledRectChar`,  代码如下:
 
 ```
 float x = vTexCoord.x;
@@ -256,12 +258,12 @@ void showFloat(float f){
 
 很好, 调试通过, 基本搞定, 好像忘记处理负整数了, 为了避免麻烦, 我们可以建议用户把`负整数`进行强制类型转换为`负浮点数`, 就可以直接使用我们的 `showFloat` 函数了, 具体来说就是这么调用:
 
-```
-showFloat(float(-1234));
-```
+
+*    showFloat(float(-1234));
+
 
 显示截图如下:
-
+![-1234](https://static.oschina.net/uploads/img/201604/02012716_WSKI.png "在这里输入图片标题")
 
 
 ###	显示范围和准确度
@@ -270,16 +272,19 @@ showFloat(float(-1234));
 
 看看这几个截图:
 
-showFloat(2097152.411);
+*    showFloat(2097152.411);
 
+![舍掉小数](https://static.oschina.net/uploads/img/201604/02012812_2yQ2.png "在这里输入图片标题")
 
-showFloat(2097152.11);
+*    showFloat(2097152.11);
 
+![保留小数](https://static.oschina.net/uploads/img/201604/02012855_bQRE.png "在这里输入图片标题")
 
 
 在此不得不赞叹一下我大 `Common Lisp` 的强悍, 毕竟能直接计算 `1024^1024` (1024的1024次方)的语言唯有我大  `Common Lisp` 了, 看看:
 
 截图:
+![大数字](https://static.oschina.net/uploads/img/201604/02012942_94EU.png "在这里输入图片标题")
 
 
 ##	可用原型的完整代码
@@ -458,9 +463,9 @@ end
 
 ##	后记
 
-经过一番调试折腾, 终于完成一个刚刚能用的原型, 以后在 `Codea` 下调试 `shader` 程序起码有个工具勉强可用了...
+经过一番调试折腾, 终于完成一个刚刚能用的原型, 以后在 `Codea` 下调试 `shader` 程序起码有个工具勉强可用了. 当然, 这几个函数也可以用于调试其他平台的 `shader` 程序.
 
 为了提高人类整体的工作效率, 我们后续会把这个原型发布到 `Github` 上, 以供其他需要观察 `shader` 内部变量的同学使用, 起个响亮的名字 `ShaderDebugger`:
 
-[Github 地址]()
-[OSChina 地址]()
+[Github 地址--还没写后面补充]()        
+[OSChina 地址--还没写后面补充]()
