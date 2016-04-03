@@ -4,14 +4,9 @@ uniform lowp sampler2D texture;
 varying lowp vec4 vColor;
 varying highp vec2 vTexCoord;
 
-float x = vTexCoord.x;
-float y = vTexCoord.y;
-
-void ledChar(int,float,float,float,float);
-void ledRectChar(int,float,float,float,float);
-void showInt(int);
-void showFloat(float);
 bool inRect(float,float,float,float);
+void ledRectChar(int,float,float,float,float);
+void showFloat(float);
 
 void main() {
     lowp vec4 col = texture2D( texture, vTexCoord ) * vColor;
@@ -69,7 +64,8 @@ void showFloat(float f){
 }
 
 bool inRect(float x1,float x2, float y1, float y2){
-    if(x>x1 && x<x2 && y>y1 && y<y2) { return true; } else { return false; }
+    if(vTexCoord.x>x1 && vTexCoord.x<x2 && vTexCoord.y>y1 && vTexCoord.y<y2) 
+    { return true; } else { return false; }
 }
 
 void ledRectChar(int n, float xa,float xb, float ya, float yb){
@@ -85,7 +81,7 @@ void ledRectChar(int n, float xa,float xb, float ya, float yb){
     int num = n;
     
     // 设定调试区显示范围
-    if(x >= x1 && x <= x2 && y >= y1 && y <= y2) {
+    if(inRect(x1,x2,y1,y2)) {
         // 设置调试区背景色
         gl_FragColor = vec4(0.2,1.0,0.2,1.0);
         // 分别绘制出 LED 形式的数字 1~0 , 用黑色绘制1个或2个矩形,由矩形以外的绿色区域组成字型
