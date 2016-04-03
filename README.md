@@ -8,14 +8,13 @@
 
 In fact, they are a few global vars and functions:
 
-* Use for the coordinate `float x` 和 `float y`
 * Use for display the value of var `showFloat()`
 * Use for generate the font `ledRectChar()`
 * Use for judge the rect area `inRect()`
 
 ##  Usage:
 
-Copy the global vars and the functions into the code of `fragment shader`, then run the `showFloat()` in `main()`, like below:
+Copy the functions into the code of `fragment shader`, then run the `showFloat()` in `main()`, like below:
 
 ### Show the int
 
@@ -86,14 +85,13 @@ Articles record the whole development: from an idea to a available propotype
 
 实际上就是几个函数, 包括:
 
-* 用于记录屏幕坐标的两个全局变量 `float x` 和 `float y`
 * 用于最终显示变量值的 `showFloat()`
 * 用于生成所需字型的 `ledRectChar()`
 * 用于判断矩形区域范围的 `inRect()`
 
 ##  使用方法
 
-把全局变量和该函数的声明和实现拷贝到 `fragment shader` 的代码中, 直接在 `main` 函数中调用即可, 如下所示:
+把这几个函数的声明和实现拷贝到 `fragment shader` 的代码中, 直接在 `main` 函数中调用即可, 如下所示:
 
 ### 显示整数
 
