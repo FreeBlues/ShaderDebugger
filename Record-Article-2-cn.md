@@ -467,5 +467,5 @@ end
 
 为了提高人类整体的工作效率, 我们后续会把这个原型发布到 `Github` 上, 以供其他需要观察 `shader` 内部变量的同学使用, 起个响亮的名字 `ShaderDebugger`:
 
-[Github 地址--还没写后面补充]()        
+[Github 地址](https://github.com/FreeBlues/ShaderDebugger)        
 [OSChina 地址--还没写后面补充]()
